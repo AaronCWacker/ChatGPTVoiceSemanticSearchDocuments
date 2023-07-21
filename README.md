@@ -359,5 +359,8 @@ ccda_message = """
 ### Allergies: The bar chart visualizes the count of each allergy. It shows that 'Mold' is the most common allergy, followed by 'Dogs', 'Cats', and 'Aspirin'.
 ### Comorbidities (Pie Chart): The pie chart visualizes the proportion of each comorbidity. It shows that 'Asthma' accounts for a larger proportion of the comorbidities than 'Skin cancer'.
 
-
+# ChatGPT Code Interpreter Video PLaylists:
+1. 2023 - In-Context Learning (ICL) using LLM, ChatGPT API, and Gradio - https://www.youtube.com/playlist?list=PLHgX2IExbFoukiZqU898HKJvmVAYbjQ1i
+2. ChatGPT, GPT4, and Health Care with Medical Advancements - https://www.youtube.com/playlist?list=PLHgX2IExbFosVaCMZCZ36bYqKBYqFKHB2
+3. OpenAI ChatGPT Code Interpreter - https://www.youtube.com/playlist?list=PLHgX2IExbFou1pOQMayB7PArCalMWLfU-
 
