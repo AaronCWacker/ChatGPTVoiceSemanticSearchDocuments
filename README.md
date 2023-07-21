@@ -19,7 +19,7 @@ Create three robust HL7 examples with the same data just in three versions: 1) A
 ## ADT in HL7 version 2.x ADT and ORU Format:
 
 ### ADT:
-
+```
 MSH|^~\&|CenterOfSyncopeHosp|COSH|||202307210800||ADT^A01|0001|P|2.6
 EVN||202307210800
 PID|||1234^^^COSH||WACKER^AARON||19800101|M|||123 MAIN ST^^MOUND^MN^55111||1234567890||ENGLISH|M|OTHER||1234567890|||NOT HISPANIC OR LATINO
@@ -34,19 +34,20 @@ AL1|1||ASPIRIN
 AL1|2||MOLD
 AL1|3||CATS
 AL1|4||DOGS
+```
 
 ### ORU:
-
+```
 MSH|^~\&|CenterOfSyncopeHosp|COSH|||202307210800||ORU^R01|0002|P|2.6
 PID|||1234^^^COSH||WACKER^AARON||19800101|M|||123 MAIN ST^^MOUND^MN^55111||1234567890||ENGLISH|M|OTHER||1234567890|||NOT HISPANIC OR LATINO
 ORC|RE|123456^COSH|123456^COSH
 OBR|1|123456^COSH|123456^COSH|PROC^Procedure|P|||202307210800||||||||123456^CALIFORNIA^SUNNY^^DR^MD^^^NPI||||||||P||||||AMBULATORY WITH HEART MONITORING||||F
-
+```
 
 # HL7 v.3 CCDA xml file:
 
 ## ADT in HL7 version 3.x CCD Format:
-
+```
 <ClinicalDocument xmlns="urn:hl7-org:v3">
     <!-- Header Elements -->
     <realmCode code="US"/>
@@ -131,11 +132,14 @@ OBR|1|123456^COSH|123456^COSH|PROC^Procedure|P|||202307210800||||||||123456^CALI
         </section>
     </component>
 </ClinicalDocument>
+```
+
 
 ## HL7 v4 FHIR example in JSON format:
 
 ### Patient
 
+```
 {
   "resourceType": "Patient",
   "id": "1234",
@@ -160,10 +164,10 @@ OBR|1|123456^COSH|123456^COSH|PROC^Procedure|P|||202307210800||||||||123456^CALI
     }
   ]
 }
-
+```
 
 ### Condition
-
+```
 {
   "resourceType": "Condition",
   "id": "cond1",
@@ -180,9 +184,10 @@ OBR|1|123456^COSH|123456^COSH|PROC^Procedure|P|||202307210800||||||||123456^CALI
     ]
   }
 }
+```
 
 ### Allergy Intolerance
-
+```
 {
   "resourceType": "AllergyIntolerance",
   "id": "all1",
@@ -199,11 +204,4 @@ OBR|1|123456^COSH|123456^COSH|PROC^Procedure|P|||202307210800||||||||123456^CALI
     ]
   }
 }
-
-
-
-
-
-
-
-
+```
