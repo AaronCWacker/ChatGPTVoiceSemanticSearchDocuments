@@ -419,3 +419,141 @@ Show the plot
 2. ChatGPT, GPT4, and Health Care with Medical Advancements - https://www.youtube.com/playlist?list=PLHgX2IExbFosVaCMZCZ36bYqKBYqFKHB2
 3. OpenAI ChatGPT Code Interpreter - https://www.youtube.com/playlist?list=PLHgX2IExbFou1pOQMayB7PArCalMWLfU-
 
+# Final Example using ChatGPT pipeline
+
+*| Condition | Sundowning 😴 | |----------------|---------------| | Definition | Sundowning is a psychological phenomenon associated with increased confusion, agitation, and restlessness in individuals with dementia during the late afternoon and evening hours. | | Possible Causes | 1. Disruption of the circadian rhythm 2. Sensory overload or understimulation 3. Fatigue or exhaustion 4. Medication side effects 5. Hunger or thirst 6. Anxiety or stress 7. Physical discomfort or pain 8. Environmental factors (e.g., noise, lighting) 9. Changes in routine or environment 10. Infection or illness | | CPT Codes | - | | ICD10 Codes | CODE1 | | SNOMED Codes | - | | RxNORM Codes | - | | OMS - Nurse Care Plan | - | | Quality Measures for Value Based Care | - | | Wellness Tips | 1. Establish a regular sleep schedule 2. Create a calm and soothing environment 3. Engage in relaxing activities before bed 4. Ensure proper nutrition and hydration 5. Manage anxiety and stress levels 6. Provide adequate pain management 7. Maintain a consistent routine 8. Minimize environmental triggers 9. Monitor for signs of infection or illness 10. Seek support from healthcare professionals and caregivers | | Programs | - |
+
+Condition	Abdominal Pain 🤢
+Definition	Abdominal pain refers to discomfort or pain felt in the area between the chest and pelvis, commonly known as the abdomen.
+Possible Causes	1. Gastrointestinal issues (e.g., gastritis, peptic ulcer)
+
+2. Appendicitis
+               3. Gallbladder disease
+               4. Kidney stones
+               5. Urinary tract infection
+               6. Pancreatitis
+               7. Inflammatory bowel disease
+               8. Hernia
+               9. Ovarian cysts
+               10. Food poisoning |
+| CPT Codes | - | | ICD10 Codes | CODE2 | | SNOMED Codes | - | | RxNORM Codes | - | | OMS - Nurse Care Plan | - | | Quality Measures for Value Based Care | - | | Wellness Tips | 1. Rest and avoid strenuous activities 2. Apply heat or cold to the affected area 3. Stay hydrated and maintain a healthy diet 4. Avoid foods that may aggravate the pain 5. Take over-the-counter pain relievers as directed 6. Seek medical attention if the pain persists or worsens 7. Follow the prescribed treatment plan 8. Practice stress management techniques 9. Engage in gentle exercises, if recommended by a healthcare professional 10. Keep track of symptoms and triggers for future reference | | Programs | - |
+
+Condition	Head Injury 🤕
+Definition	A head injury refers to any trauma or damage to the scalp, skull, or brain. It can range from mild concussions to severe traumatic brain injuries.
+Possible Causes	1. Falls
+
+2. Motor vehicle accidents
+               3. Sports-related injuries
+               4. Physical assaults or violence
+               5. Workplace accidents
+               6. Explosions or blasts
+               7. Accidental trauma to the head
+               8. Penetrating injuries (e.g., gunshot wounds)
+               9. Shaken baby syndrome
+               10. Bicycle accidents |
+| CPT Codes | - | | ICD10 Codes | CODE3 | | SNOMED Codes | - | | RxNORM Codes | - | | OMS - Nurse Care Plan | - | | Quality Measures for Value Based Care | - | | Wellness Tips | 1. Rest and avoid activities that may worsen symptoms 2. Apply ice or cold packs to reduce swelling 3. Monitor for signs of concussion or worsening symptoms 4. Follow healthcare professional's recommendations for pain management 5. Avoid alcohol and medications that may interfere with recovery 6. Gradually return to normal activities as advised by a healthcare professional 7. Seek medical attention if symptoms worsen or new symptoms develop 8. Take necessary precautions to prevent future head injuries 9. Engage in brain-stimulating activities to aid recovery 10. Seek support from healthcare professionals and support groups | | Programs | - |
+
+Condition	Syncope 😵
+Definition	Syncope, commonly known as fainting or passing out, is a temporary loss of consciousness caused by a lack of blood flow to the brain.
+Possible Causes	1. Vasovagal syncope (triggered by emotional distress, pain, or standing for long periods)
+
+2. Cardiac syncope (caused by heart rhythm abnormalities or structural heart problems)
+               3. Orthostatic hypotension (drop in blood pressure upon standing)
+               4. Neurological conditions (e.g., seizures, migraines)
+               5. Medication side effects
+               6. Dehydration
+               7. Blood loss or anemia
+               8. Hyperventilation
+               9. Hypoglycemia
+               10. Pulmonary embolism |
+| CPT Codes | - | | ICD10 Codes | CODE4 | | SNOMED Codes | - | | RxNORM Codes | - | | OMS - Nurse Care Plan | - | | Quality Measures for Value Based Care | - | | Wellness Tips | 1. Lie down or sit with your head between your knees if feeling lightheaded 2. Stay hydrated and maintain a balanced diet 3. Avoid triggers that may cause syncope episodes 4. Take medications as prescribed and discuss side effects with healthcare professional 5. Use compression stockings to improve blood flow 6. Gradually change positions to prevent sudden drops in blood pressure 7. Practice stress management techniques 8. Monitor blood sugar levels if diabetic 9. Seek medical attention if syncope episodes become more frequent or severe 10. Follow recommended treatment plans and lifestyle modifications | | Programs | - |
+
+Body Part Map:
+
+
+| Body Part    | Comorbidities          |
+|--------------|------------------------|
+| Brain        | -                      |
+| Abdomen      | Skin Cancer, Mold      |
+| Head         | Cats                   |
+| Heart        | Dogs                   |
+Please note that the codes and descriptions for CPT, ICD, SNOMED, RxNORM, OMS - Nurse Care Plan, and Quality Measures for value-based care were not provided in the input data.*
+
+Elapsed time:
+
+56.12058115005493
+
+Response:
+
+Condition	Sundowning 😴
+Definition	Sundowning is a psychological phenomenon associated with increased confusion, agitation, and restlessness in individuals with dementia during the late afternoon and evening hours.
+Possible Causes	1. Disruption of the circadian rhythm
+
+2. Sensory overload or understimulation
+               3. Fatigue or exhaustion
+               4. Medication side effects
+               5. Hunger or thirst
+               6. Anxiety or stress
+               7. Physical discomfort or pain
+               8. Environmental factors (e.g., noise, lighting)
+               9. Changes in routine or environment
+               10. Infection or illness |
+| CPT Codes | - | | ICD10 Codes | CODE1 | | SNOMED Codes | - | | RxNORM Codes | - | | OMS - Nurse Care Plan | - | | Quality Measures for Value Based Care | - | | Wellness Tips | 1. Establish a regular sleep schedule 2. Create a calm and soothing environment 3. Engage in relaxing activities before bed 4. Ensure proper nutrition and hydration 5. Manage anxiety and stress levels 6. Provide adequate pain management 7. Maintain a consistent routine 8. Minimize environmental triggers 9. Monitor for signs of infection or illness 10. Seek support from healthcare professionals and caregivers | | Programs | - |
+
+Condition	Abdominal Pain 🤢
+Definition	Abdominal pain refers to discomfort or pain felt in the area between the chest and pelvis, commonly known as the abdomen.
+Possible Causes	1. Gastrointestinal issues (e.g., gastritis, peptic ulcer)
+
+2. Appendicitis
+               3. Gallbladder disease
+               4. Kidney stones
+               5. Urinary tract infection
+               6. Pancreatitis
+               7. Inflammatory bowel disease
+               8. Hernia
+               9. Ovarian cysts
+               10. Food poisoning |
+| CPT Codes | - | | ICD10 Codes | CODE2 | | SNOMED Codes | - | | RxNORM Codes | - | | OMS - Nurse Care Plan | - | | Quality Measures for Value Based Care | - | | Wellness Tips | 1. Rest and avoid strenuous activities 2. Apply heat or cold to the affected area 3. Stay hydrated and maintain a healthy diet 4. Avoid foods that may aggravate the pain 5. Take over-the-counter pain relievers as directed 6. Seek medical attention if the pain persists or worsens 7. Follow the prescribed treatment plan 8. Practice stress management techniques 9. Engage in gentle exercises, if recommended by a healthcare professional 10. Keep track of symptoms and triggers for future reference | | Programs | - |
+
+Condition	Head Injury 🤕
+Definition	A head injury refers to any trauma or damage to the scalp, skull, or brain. It can range from mild concussions to severe traumatic brain injuries.
+Possible Causes	1. Falls
+
+2. Motor vehicle accidents
+               3. Sports-related injuries
+               4. Physical assaults or violence
+               5. Workplace accidents
+               6. Explosions or blasts
+               7. Accidental trauma to the head
+               8. Penetrating injuries (e.g., gunshot wounds)
+               9. Shaken baby syndrome
+               10. Bicycle accidents |
+| CPT Codes | - | | ICD10 Codes | CODE3 | | SNOMED Codes | - | | RxNORM Codes | - | | OMS - Nurse Care Plan | - | | Quality Measures for Value Based Care | - | | Wellness Tips | 1. Rest and avoid activities that may worsen symptoms 2. Apply ice or cold packs to reduce swelling 3. Monitor for signs of concussion or worsening symptoms 4. Follow healthcare professional's recommendations for pain management 5. Avoid alcohol and medications that may interfere with recovery 6. Gradually return to normal activities as advised by a healthcare professional 7. Seek medical attention if symptoms worsen or new symptoms develop 8. Take necessary precautions to prevent future head injuries 9. Engage in brain-stimulating activities to aid recovery 10. Seek support from healthcare professionals and support groups | | Programs | - |
+
+Condition	Syncope 😵
+Definition	Syncope, commonly known as fainting or passing out, is a temporary loss of consciousness caused by a lack of blood flow to the brain.
+Possible Causes	1. Vasovagal syncope (triggered by emotional distress, pain, or standing for long periods)
+
+2. Cardiac syncope (caused by heart rhythm abnormalities or structural heart problems)
+               3. Orthostatic hypotension (drop in blood pressure upon standing)
+               4. Neurological conditions (e.g., seizures, migraines)
+               5. Medication side effects
+               6. Dehydration
+               7. Blood loss or anemia
+               8. Hyperventilation
+               9. Hypoglycemia
+               10. Pulmonary embolism |
+| CPT Codes | - | | ICD10 Codes | CODE4 | | SNOMED Codes | - | | RxNORM Codes | - | | OMS - Nurse Care Plan | - | | Quality Measures for Value Based Care | - | | Wellness Tips | 1. Lie down or sit with your head between your knees if feeling lightheaded 2. Stay hydrated and maintain a balanced diet 3. Avoid triggers that may cause syncope episodes 4. Take medications as prescribed and discuss side effects with healthcare professional 5. Use compression stockings to improve blood flow 6. Gradually change positions to prevent sudden drops in blood pressure 7. Practice stress management techniques 8. Monitor blood sugar levels if diabetic 9. Seek medical attention if syncope episodes become more frequent or severe 10. Follow recommended treatment plans and lifestyle modifications | | Programs | - |
+
+Body Part Map:
+
+
+| Body Part    | Comorbidities          |
+|--------------|------------------------|
+| Brain        | -                      |
+| Abdomen      | Skin Cancer, Mold      |
+| Head         | Cats                   |
+| Heart        | Dogs                   |
+
+Please note that the codes and descriptions for CPT, ICD, SNOMED, RxNORM, OMS - Nurse Care Plan, and Quality Measures for value-based care were not provided in the input data.
+
