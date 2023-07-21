@@ -557,3 +557,61 @@ Body Part Map:
 
 Please note that the codes and descriptions for CPT, ICD, SNOMED, RxNORM, OMS - Nurse Care Plan, and Quality Measures for value-based care were not provided in the input data.
 
+# Code Interpreter on a Survey.csv File
+```
+This dataset appears to be a survey about mental health in the workplace, with responses collected in 2014. The survey includes a variety of questions related to the respondents' demographics, their work environment, and their experiences and attitudes toward mental health.
+
+The dataset contains the following columns:
+
+Timestamp: The date and time the survey was completed.
+Age: The age of the respondent.
+Gender: The gender of the respondent.
+Country: The country where the respondent lives.
+State: If applicable, the state in the US where the respondent lives.
+Self_employed: Whether or not the respondent is self-employed.
+Family_history: Whether mental health disorders are present in the respondent's family.
+Treatment: Whether the respondent has sought treatment for a mental health condition.
+Work_interfere: If the respondent has a mental health condition, whether it interferes with their work.
+No_employees: The number of employees in the respondent's place of work.
+And more columns related to mental health policy and experiences in the workplace.
+I will now generate a summary of the data and then proceed to create 10 interesting graphs.
+
+Finished working
+Show work
+I apologize for the oversight. It seems I forgot to import the numpy library, which is necessary for generating the summary statistics. Let's correct this.
+
+Finished working
+Show work
+Here's the summary of the data:
+
+Numerical data:
+
+The dataset contains age information for 1259 respondents.
+The mean age is approximately 79,428,150 due to some exceptionally large and small values, which are likely errors in the data. The age range is from -1726 to 100,000,000,011, which indicates there are errors in the dataset that need to be cleaned.
+The 25th, 50th (median), and 75th percentiles are 27, 31, and 36 respectively, indicating a relatively young respondent base.
+Categorical data:
+
+The dataset contains 1259 responses with 1246 unique timestamps, suggesting that some responses were submitted at the exact same time.
+There are 49 unique entries for gender, indicating a wide variety of responses beyond simply "male" and "female". The most common response is "Male", with 615 occurrences.
+The respondents are from 48 unique countries, with the United States being the most common.
+Among the respondents who disclosed their employment status, the majority (1095 out of 1241) are not self-employed.
+The size of the respondents' workplace varies, with "6-25" employees being the most common size.
+Many respondents prefer not to discuss their mental health issues in an interview, with 1008 out of 1259 choosing "No" for the "mental_health_interview" field.
+Now, let's proceed to generate the graphs. I'll first perform some data cleaning to handle missing values and incorrect entries, particularly in the Age column. After that, I'll create visualizations for the following:
+
+Age distribution of respondents.
+Gender distribution of respondents.
+Geographic distribution of respondents.
+Distribution of respondents by company size.
+The frequency of mental health issues interfering with work.
+The frequency of respondents seeking treatment for mental health issues.
+The impact of family history on seeking treatment.
+The willingness to discuss mental health issues with coworkers and supervisors.
+The impact of remote work on mental health.
+The perception of mental health consequences in the workplace.
+Please let me know if you'd like to focus on different aspects of the data or adjust the proposed visualizations.
+```
+
+![image](https://github.com/AaronCWacker/ChatGPTVoiceSemanticSearchDocuments/assets/30595158/6bf6cb68-f7d8-4df7-bfe8-054fd4d99e57)
+
+
