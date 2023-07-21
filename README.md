@@ -350,16 +350,71 @@ ccda_message = """
 ## Prompt Engineering:  For the visualizations just show these basic graphs with the limited data in the example.  Make up information needed by the visualization and make sure to include the terms or words to do more a visualization of the language itself.
 
 ![image](https://github.com/AaronCWacker/ChatGPTVoiceSemanticSearchDocuments/assets/30595158/7e2549bf-c2c2-44f3-968f-7f2374ea16a1)
-![image](https://github.com/AaronCWacker/ChatGPTVoiceSemanticSearchDocuments/assets/30595158/3e6c455f-75fe-428b-b1df-153fd0bb0347)
-![image](https://github.com/AaronCWacker/ChatGPTVoiceSemanticSearchDocuments/assets/30595158/ba6c0abd-b586-4343-afd0-23b824f085a6)
-![image](https://github.com/AaronCWacker/ChatGPTVoiceSemanticSearchDocuments/assets/30595158/12d39f5f-de67-4e6b-877c-7cfd5b7d0257)
-
 ### Conditions: The bar chart visualizes the count of each condition. It shows that 'Abdominal pain' is the most common condition, followed by 'Sundowning' and 'Head injury'.
 ### Comorbidities: The bar chart visualizes the count of each comorbidity. It shows that 'Asthma' is more common than 'Skin cancer'.
 ### Allergies: The bar chart visualizes the count of each allergy. It shows that 'Mold' is the most common allergy, followed by 'Dogs', 'Cats', and 'Aspirin'.
 ### Comorbidities (Pie Chart): The pie chart visualizes the proportion of each comorbidity. It shows that 'Asthma' accounts for a larger proportion of the comorbidities than 'Skin cancer'.
 
-# ChatGPT Code Interpreter Video PLaylists:
+## Prompt Engineering:  Create a word cloud and language EDA visuals for the encounter.  Also create an imaginary time series and visual as if patient had syncope three times leading to falls - once in California, twice in Minnesota.  Create a map visualization and mermaid diagram of customer experience as a patient receiving care for all three events.
+![image](https://github.com/AaronCWacker/ChatGPTVoiceSemanticSearchDocuments/assets/30595158/347af22f-ddaa-4e0e-b335-db21cd4b2f5c)
+![image](https://github.com/AaronCWacker/ChatGPTVoiceSemanticSearchDocuments/assets/30595158/73081ec4-7200-47b5-8d8f-2637b026770a)
+
+## Prompt Engineering:
+
+```
+Good revise to include emojis and every condition.  Next show them on a visual as conditions and make up a imaginary time series with two dimensions of conditions versus procedures and body part.  For example syncope involves the brain and the heart.  People pass out since the heart and abdomen center the blood flow and the body feints or falls down to place the head and brain at same horizontal as heart keeping patient alive.
+ChatGPT
+To visualize the conditions and corresponding body parts in a time series, we first need to structure our data appropriately. Here is an adjusted version of the CSV table including emojis, all conditions, and corresponding body parts:
+
+PatientID	Name	Address	Condition	ICD10_Code	Body_Part	Comorbidity	Allergies	Medication	Provider_Name	Hospital	Date
+1	Aaron Wacker	Mound, MN	Sundowning 😴	CODE1	Brain	Asthma	Aspirin	Heart Monitoring	Dr Sunny California	Center of Syncope	2023-06-01
+1	Aaron Wacker	Mound, MN	Abdominal Pain 🤢	CODE2	Abdomen	Skin Cancer	Mold	Ambulatory	Dr Sunny California	Center of Syncope	2023-06-15
+1	Aaron Wacker	Mound, MN	Head Injury 🤕	CODE3	Head		Cats		Dr Sunny California	Center of Syncope	2023-06-20
+1	Aaron Wacker	Mound, MN	Syncope 😵	CODE4	Heart		Dogs		Dr Sunny California	Center of Syncope	2023-06-30
+For this mock-up, I used the following symbols for conditions:
+
+Sundowning: 😴
+Abdominal Pain: 🤢
+Head Injury: 🤕
+Syncope: 😵
+Now, let's move on to the visualization. As a language model AI developed by OpenAI, I can guide you on how to create the visualization, but I can't perform this task directly. You could consider using Python libraries such as Matplotlib or Seaborn for this task.
+
+Here's a basic code snippet on how you might create a time series plot with Matplotlib:
+
+python
+Copy code
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Assuming df is your DataFrame and Date column is in datetime format
+df['Date'] = pd.to_datetime(df['Date'])
+
+plt.figure(figsize=(10,6))
+
+for condition in df['Condition'].unique():
+    condition_data = df[df['Condition'] == condition]
+    plt.plot(condition_data['Date'], condition_data['Body_Part'], marker='o', label=condition)
+
+plt.xlabel('Date')
+plt.ylabel('Body Part')
+plt.title('Conditions Over Time')
+plt.legend()
+
+plt.show()
+Please note that this code won't run directly in this environment and you need to adjust it according to your actual DataFrame. The idea here is to create a separate line on the plot for each condition and mark each event for a specific date. The y-axis in this case would be categorical with body parts.
+
+
+
+
+User
+Show the plot
+```
+![image](https://github.com/AaronCWacker/ChatGPTVoiceSemanticSearchDocuments/assets/30595158/7865b64b-502e-42ff-89de-b4bfeb377ffe)
+
+
+
+
+# ChatGPT Code Interpreter Video Playlists:
 1. 2023 - In-Context Learning (ICL) using LLM, ChatGPT API, and Gradio - https://www.youtube.com/playlist?list=PLHgX2IExbFoukiZqU898HKJvmVAYbjQ1i
 2. ChatGPT, GPT4, and Health Care with Medical Advancements - https://www.youtube.com/playlist?list=PLHgX2IExbFosVaCMZCZ36bYqKBYqFKHB2
 3. OpenAI ChatGPT Code Interpreter - https://www.youtube.com/playlist?list=PLHgX2IExbFou1pOQMayB7PArCalMWLfU-
