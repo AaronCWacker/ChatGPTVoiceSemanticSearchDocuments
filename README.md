@@ -326,6 +326,15 @@ ccda_message = """
 ....
 ```
 
+# Markdown generation creates formatted output for documentation.
+
+|Example Type|Summary|Emoji| |---|---|---| |HL7 v.2.x ADT and ORU|Emergency admit for Patient "Aaron Wacker" with multiple conditions, comorbidities, and allergies. Medications administered. Seen by Dr. Sunny California.|🚑| |HL7 v.3 CCDA|Emergency admit for Patient "Aaron Wacker" with provider and hospital details. Includes problem list and allergies.|📝| |HL7 v4 FHIR|Hydrated data fields for Patient, Coverage, Conditions, Service Requests, Procedures, Medications, Organization, Allergies, Encounters, and Provider and Hospital details.|💡|
+
+# ChatGPT Code Interpreter Demo: Create 10 Visualizations for the ADT data
+
+
+
+
 
 
 
