@@ -335,11 +335,29 @@ ccda_message = """
 |HL7 v4 FHIR|Hydrated data fields for Patient, Coverage, Conditions, Service Requests, Procedures, Medications, Organization, Allergies, Encounters, and Provider and Hospital details.|💡|
 
 # ChatGPT Code Interpreter Demo: Create 10 Visualizations for the ADT data
+## Given the nature of the data you described, here are some visualizations that could be generated:
+1. Bar Plot of Conditions: Given the ICD10 codes for sundowning, abdominal pain, and head injury due to fall trauma, a bar plot could be created to visualize the count of each condition in the dataset.
+2. Pie Chart of Comorbidities: Given the comorbidities of asthma and skin cancer, a pie chart could be created to show the proportion of each comorbidity.
+3. Bar Plot of Allergies: Given the allergies to aspirin, mold, cats, and dogs, a bar plot could be created to visualize the count of each allergy in the dataset.
+4. Heatmap of Conditions vs Allergies: A heatmap could be created to show the co-occurrence of conditions and allergies. The x-axis would represent conditions, the y-axis would represent allergies, and the color intensity would represent the count of co-occurrences.
+5. Time Series Plot of Admissions: If the date and time of each admission is available, a time series plot could be created to visualize the number of admissions over time.
+6. Box Plot of Admissions by Doctor: If the doctor for each admission is known, a box plot could be created to visualize the distribution of admissions by each doctor.
+7. Count Plot of Medications Administered: If the medications administered for each admission are known, a count plot could be created to visualize the count of each medication.
+8. Bar Plot of Encounters by Service Requested: If the service requested for each encounter is known, a bar plot could be created to visualize the count of encounters by service requested.
+9. Pie Chart of Procedures Performed: If the procedures performed for each admission are known, a pie chart could be created to show the proportion of each procedure.
+10. Count Plot of Coverage: If the coverage for each patient is known, a count plot could be created to visualize the count of each type of coverage.
 
+## Prompt Engineering:  For the visualizations just show these basic graphs with the limited data in the example.  Make up information needed by the visualization and make sure to include the terms or words to do more a visualization of the language itself.
 
+![image](https://github.com/AaronCWacker/ChatGPTVoiceSemanticSearchDocuments/assets/30595158/7e2549bf-c2c2-44f3-968f-7f2374ea16a1)
+![image](https://github.com/AaronCWacker/ChatGPTVoiceSemanticSearchDocuments/assets/30595158/3e6c455f-75fe-428b-b1df-153fd0bb0347)
+![image](https://github.com/AaronCWacker/ChatGPTVoiceSemanticSearchDocuments/assets/30595158/ba6c0abd-b586-4343-afd0-23b824f085a6)
+![image](https://github.com/AaronCWacker/ChatGPTVoiceSemanticSearchDocuments/assets/30595158/12d39f5f-de67-4e6b-877c-7cfd5b7d0257)
 
-
-
+### Conditions: The bar chart visualizes the count of each condition. It shows that 'Abdominal pain' is the most common condition, followed by 'Sundowning' and 'Head injury'.
+### Comorbidities: The bar chart visualizes the count of each comorbidity. It shows that 'Asthma' is more common than 'Skin cancer'.
+### Allergies: The bar chart visualizes the count of each allergy. It shows that 'Mold' is the most common allergy, followed by 'Dogs', 'Cats', and 'Aspirin'.
+### Comorbidities (Pie Chart): The pie chart visualizes the proportion of each comorbidity. It shows that 'Asthma' accounts for a larger proportion of the comorbidities than 'Skin cancer'.
 
 
 
